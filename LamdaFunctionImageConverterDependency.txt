@@ -1,0 +1,936 @@
+Lambda-NEF2JPGConvert/
+├── bkp_myscript.py
+├── easy_install.py
+├── easy_install.pyc
+├── ld-linux-x86-64.so.2
+├── libbz2.so.1
+├── libc.so.6
+├── libgcc_s.so.1
+├── libglib-2.0.so.0
+├── libgomp.so.1
+├── libgthread-2.0.so.0
+├── libjpeg.so.62
+├── liblcms2.so.2
+├── libm.so.6
+├── libpthread.so.0
+├── libstdc++.so.6
+├── libz.so.1
+├── _markerlib
+│   ├── __init__.py
+│   ├── __init__.pyc
+│   ├── markers.py
+│   └── markers.pyc
+├── MyScript.py
+├── olefile
+│   ├── CONTRIBUTORS.txt
+│   ├── doc
+│   │   ├── API.html
+│   │   ├── API.md
+│   │   ├── Contribute.html
+│   │   ├── Contribute.md
+│   │   ├── Home.html
+│   │   ├── Home.md
+│   │   ├── Install.html
+│   │   ├── Install.md
+│   │   ├── License.html
+│   │   ├── License.md
+│   │   ├── OLE_Overview.html
+│   │   ├── OLE_Overview.md
+│   │   └── OLE_VBA_sample.png
+│   ├── __init__.py
+│   ├── __init__.pyc
+│   ├── LICENSE.txt
+│   ├── olefile2.html
+│   ├── olefile2.py
+│   ├── olefile.html
+│   ├── olefile.py
+│   ├── olefile.pyc
+│   ├── README.html
+│   └── README.rst
+├── olefile-0.43-py2.7.egg-info
+│   ├── dependency_links.txt
+│   ├── installed-files.txt
+│   ├── PKG-INFO
+│   ├── SOURCES.txt
+│   └── top_level.txt
+├── OleFileIO_PL.py
+├── PIL
+│   ├── BdfFontFile.py
+│   ├── BdfFontFile.pyc
+│   ├── _binary.py
+│   ├── _binary.pyc
+│   ├── BmpImagePlugin.py
+│   ├── BmpImagePlugin.pyc
+│   ├── BufrStubImagePlugin.py
+│   ├── BufrStubImagePlugin.pyc
+│   ├── ContainerIO.py
+│   ├── ContainerIO.pyc
+│   ├── CurImagePlugin.py
+│   ├── CurImagePlugin.pyc
+│   ├── DcxImagePlugin.py
+│   ├── DcxImagePlugin.pyc
+│   ├── DdsImagePlugin.py
+│   ├── DdsImagePlugin.pyc
+│   ├── EpsImagePlugin.py
+│   ├── EpsImagePlugin.pyc
+│   ├── ExifTags.py
+│   ├── ExifTags.pyc
+│   ├── features.py
+│   ├── features.pyc
+│   ├── FitsStubImagePlugin.py
+│   ├── FitsStubImagePlugin.pyc
+│   ├── FliImagePlugin.py
+│   ├── FliImagePlugin.pyc
+│   ├── FontFile.py
+│   ├── FontFile.pyc
+│   ├── FpxImagePlugin.py
+│   ├── FpxImagePlugin.pyc
+│   ├── FtexImagePlugin.py
+│   ├── FtexImagePlugin.pyc
+│   ├── GbrImagePlugin.py
+│   ├── GbrImagePlugin.pyc
+│   ├── GdImageFile.py
+│   ├── GdImageFile.pyc
+│   ├── GifImagePlugin.py
+│   ├── GifImagePlugin.pyc
+│   ├── GimpGradientFile.py
+│   ├── GimpGradientFile.pyc
+│   ├── GimpPaletteFile.py
+│   ├── GimpPaletteFile.pyc
+│   ├── GribStubImagePlugin.py
+│   ├── GribStubImagePlugin.pyc
+│   ├── Hdf5StubImagePlugin.py
+│   ├── Hdf5StubImagePlugin.pyc
+│   ├── IcnsImagePlugin.py
+│   ├── IcnsImagePlugin.pyc
+│   ├── IcoImagePlugin.py
+│   ├── IcoImagePlugin.pyc
+│   ├── ImageChops.py
+│   ├── ImageChops.pyc
+│   ├── ImageCms.py
+│   ├── ImageCms.pyc
+│   ├── ImageColor.py
+│   ├── ImageColor.pyc
+│   ├── ImageDraw2.py
+│   ├── ImageDraw2.pyc
+│   ├── ImageDraw.py
+│   ├── ImageDraw.pyc
+│   ├── ImageEnhance.py
+│   ├── ImageEnhance.pyc
+│   ├── ImageFile.py
+│   ├── ImageFile.pyc
+│   ├── ImageFilter.py
+│   ├── ImageFilter.pyc
+│   ├── ImageFont.py
+│   ├── ImageFont.pyc
+│   ├── ImageGrab.py
+│   ├── ImageGrab.pyc
+│   ├── ImageMath.py
+│   ├── ImageMath.pyc
+│   ├── ImageMode.py
+│   ├── ImageMode.pyc
+│   ├── ImageMorph.py
+│   ├── ImageMorph.pyc
+│   ├── ImageOps.py
+│   ├── ImageOps.pyc
+│   ├── ImagePalette.py
+│   ├── ImagePalette.pyc
+│   ├── ImagePath.py
+│   ├── ImagePath.pyc
+│   ├── Image.py
+│   ├── Image.pyc
+│   ├── ImageQt.py
+│   ├── ImageQt.pyc
+│   ├── ImageSequence.py
+│   ├── ImageSequence.pyc
+│   ├── ImageShow.py
+│   ├── ImageShow.pyc
+│   ├── ImageStat.py
+│   ├── ImageStat.pyc
+│   ├── ImageTk.py
+│   ├── ImageTk.pyc
+│   ├── ImageTransform.py
+│   ├── ImageTransform.pyc
+│   ├── ImageWin.py
+│   ├── ImageWin.pyc
+│   ├── _imagingcms.so
+│   ├── _imagingmath.so
+│   ├── _imagingmorph.so
+│   ├── _imaging.so
+│   ├── _imagingtk.so
+│   ├── ImImagePlugin.py
+│   ├── ImImagePlugin.pyc
+│   ├── ImtImagePlugin.py
+│   ├── ImtImagePlugin.pyc
+│   ├── __init__.py
+│   ├── __init__.pyc
+│   ├── IptcImagePlugin.py
+│   ├── IptcImagePlugin.pyc
+│   ├── Jpeg2KImagePlugin.py
+│   ├── Jpeg2KImagePlugin.pyc
+│   ├── JpegImagePlugin.py
+│   ├── JpegImagePlugin.pyc
+│   ├── JpegPresets.py
+│   ├── JpegPresets.pyc
+│   ├── McIdasImagePlugin.py
+│   ├── McIdasImagePlugin.pyc
+│   ├── MicImagePlugin.py
+│   ├── MicImagePlugin.pyc
+│   ├── MpegImagePlugin.py
+│   ├── MpegImagePlugin.pyc
+│   ├── MpoImagePlugin.py
+│   ├── MpoImagePlugin.pyc
+│   ├── MspImagePlugin.py
+│   ├── MspImagePlugin.pyc
+│   ├── OleFileIO.py
+│   ├── OleFileIO.pyc
+│   ├── PaletteFile.py
+│   ├── PaletteFile.pyc
+│   ├── PalmImagePlugin.py
+│   ├── PalmImagePlugin.pyc
+│   ├── PcdImagePlugin.py
+│   ├── PcdImagePlugin.pyc
+│   ├── PcfFontFile.py
+│   ├── PcfFontFile.pyc
+│   ├── PcxImagePlugin.py
+│   ├── PcxImagePlugin.pyc
+│   ├── PdfImagePlugin.py
+│   ├── PdfImagePlugin.pyc
+│   ├── PixarImagePlugin.py
+│   ├── PixarImagePlugin.pyc
+│   ├── PngImagePlugin.py
+│   ├── PngImagePlugin.pyc
+│   ├── PpmImagePlugin.py
+│   ├── PpmImagePlugin.pyc
+│   ├── PsdImagePlugin.py
+│   ├── PsdImagePlugin.pyc
+│   ├── PSDraw.py
+│   ├── PSDraw.pyc
+│   ├── PyAccess.py
+│   ├── PyAccess.pyc
+│   ├── SgiImagePlugin.py
+│   ├── SgiImagePlugin.pyc
+│   ├── SpiderImagePlugin.py
+│   ├── SpiderImagePlugin.pyc
+│   ├── SunImagePlugin.py
+│   ├── SunImagePlugin.pyc
+│   ├── TarIO.py
+│   ├── TarIO.pyc
+│   ├── TgaImagePlugin.py
+│   ├── TgaImagePlugin.pyc
+│   ├── TiffImagePlugin.py
+│   ├── TiffImagePlugin.pyc
+│   ├── TiffTags.py
+│   ├── TiffTags.pyc
+│   ├── _tkinter_finder.py
+│   ├── _tkinter_finder.pyc
+│   ├── _util.py
+│   ├── _util.pyc
+│   ├── WalImageFile.py
+│   ├── WalImageFile.pyc
+│   ├── WebPImagePlugin.py
+│   ├── WebPImagePlugin.pyc
+│   ├── WmfImagePlugin.py
+│   ├── WmfImagePlugin.pyc
+│   ├── XbmImagePlugin.py
+│   ├── XbmImagePlugin.pyc
+│   ├── XpmImagePlugin.py
+│   ├── XpmImagePlugin.pyc
+│   ├── XVThumbImagePlugin.py
+│   └── XVThumbImagePlugin.pyc
+├── Pillow-4.0.0-py2.7.egg-info
+│   ├── dependency_links.txt
+│   ├── installed-files.txt
+│   ├── PKG-INFO
+│   ├── requires.txt
+│   ├── SOURCES.txt
+│   ├── top_level.txt
+│   └── zip-safe
+├── pip
+│   ├── basecommand.py
+│   ├── basecommand.pyc
+│   ├── baseparser.py
+│   ├── baseparser.pyc
+│   ├── cmdoptions.py
+│   ├── cmdoptions.pyc
+│   ├── commands
+│   │   ├── completion.py
+│   │   ├── completion.pyc
+│   │   ├── freeze.py
+│   │   ├── freeze.pyc
+│   │   ├── help.py
+│   │   ├── help.pyc
+│   │   ├── __init__.py
+│   │   ├── __init__.pyc
+│   │   ├── install.py
+│   │   ├── install.pyc
+│   │   ├── list.py
+│   │   ├── list.pyc
+│   │   ├── search.py
+│   │   ├── search.pyc
+│   │   ├── show.py
+│   │   ├── show.pyc
+│   │   ├── uninstall.py
+│   │   ├── uninstall.pyc
+│   │   ├── unzip.py
+│   │   ├── unzip.pyc
+│   │   ├── wheel.py
+│   │   ├── wheel.pyc
+│   │   ├── zip.py
+│   │   └── zip.pyc
+│   ├── compat
+│   │   ├── dictconfig.py
+│   │   ├── dictconfig.pyc
+│   │   ├── __init__.py
+│   │   └── __init__.pyc
+│   ├── download.py
+│   ├── download.pyc
+│   ├── exceptions.py
+│   ├── exceptions.pyc
+│   ├── index.py
+│   ├── index.pyc
+│   ├── __init__.py
+│   ├── __init__.pyc
+│   ├── locations.py
+│   ├── locations.pyc
+│   ├── __main__.py
+│   ├── __main__.pyc
+│   ├── models
+│   │   ├── index.py
+│   │   ├── index.pyc
+│   │   ├── __init__.py
+│   │   └── __init__.pyc
+│   ├── operations
+│   │   ├── freeze.py
+│   │   ├── freeze.pyc
+│   │   ├── __init__.py
+│   │   └── __init__.pyc
+│   ├── pep425tags.py
+│   ├── pep425tags.pyc
+│   ├── req
+│   │   ├── __init__.py
+│   │   ├── __init__.pyc
+│   │   ├── req_file.py
+│   │   ├── req_file.pyc
+│   │   ├── req_install.py
+│   │   ├── req_install.pyc
+│   │   ├── req_requirement.py
+│   │   ├── req_requirement.pyc
+│   │   ├── req_set.py
+│   │   ├── req_set.pyc
+│   │   ├── req_uninstall.py
+│   │   └── req_uninstall.pyc
+│   ├── status_codes.py
+│   ├── status_codes.pyc
+│   ├── utils
+│   │   ├── appdirs.py
+│   │   ├── appdirs.pyc
+│   │   ├── build.py
+│   │   ├── build.pyc
+│   │   ├── deprecation.py
+│   │   ├── deprecation.pyc
+│   │   ├── filesystem.py
+│   │   ├── filesystem.pyc
+│   │   ├── __init__.py
+│   │   ├── __init__.pyc
+│   │   ├── logging.py
+│   │   ├── logging.pyc
+│   │   ├── outdated.py
+│   │   ├── outdated.pyc
+│   │   ├── ui.py
+│   │   └── ui.pyc
+│   ├── vcs
+│   │   ├── bazaar.py
+│   │   ├── bazaar.pyc
+│   │   ├── git.py
+│   │   ├── git.pyc
+│   │   ├── __init__.py
+│   │   ├── __init__.pyc
+│   │   ├── mercurial.py
+│   │   ├── mercurial.pyc
+│   │   ├── subversion.py
+│   │   └── subversion.pyc
+│   ├── _vendor
+│   │   ├── cachecontrol
+│   │   │   ├── adapter.py
+│   │   │   ├── adapter.pyc
+│   │   │   ├── cache.py
+│   │   │   ├── cache.pyc
+│   │   │   ├── caches
+│   │   │   │   ├── file_cache.py
+│   │   │   │   ├── file_cache.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── __init__.pyc
+│   │   │   │   ├── redis_cache.py
+│   │   │   │   └── redis_cache.pyc
+│   │   │   ├── compat.py
+│   │   │   ├── compat.pyc
+│   │   │   ├── controller.py
+│   │   │   ├── controller.pyc
+│   │   │   ├── filewrapper.py
+│   │   │   ├── filewrapper.pyc
+│   │   │   ├── heuristics.py
+│   │   │   ├── heuristics.pyc
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── serialize.py
+│   │   │   ├── serialize.pyc
+│   │   │   ├── wrapper.py
+│   │   │   └── wrapper.pyc
+│   │   ├── certifi
+│   │   │   ├── cacert.pem
+│   │   │   ├── core.py
+│   │   │   ├── core.pyc
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── __main__.py
+│   │   │   └── __main__.pyc
+│   │   ├── colorama
+│   │   │   ├── ansi.py
+│   │   │   ├── ansi.pyc
+│   │   │   ├── ansitowin32.py
+│   │   │   ├── ansitowin32.pyc
+│   │   │   ├── initialise.py
+│   │   │   ├── initialise.pyc
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── win32.py
+│   │   │   ├── win32.pyc
+│   │   │   ├── winterm.py
+│   │   │   └── winterm.pyc
+│   │   ├── distlib
+│   │   │   ├── _backport
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── __init__.pyc
+│   │   │   │   ├── misc.py
+│   │   │   │   ├── misc.pyc
+│   │   │   │   ├── shutil.py
+│   │   │   │   ├── shutil.pyc
+│   │   │   │   ├── sysconfig.cfg
+│   │   │   │   ├── sysconfig.py
+│   │   │   │   ├── sysconfig.pyc
+│   │   │   │   ├── tarfile.py
+│   │   │   │   └── tarfile.pyc
+│   │   │   ├── compat.py
+│   │   │   ├── compat.pyc
+│   │   │   ├── database.py
+│   │   │   ├── database.pyc
+│   │   │   ├── index.py
+│   │   │   ├── index.pyc
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── locators.py
+│   │   │   ├── locators.pyc
+│   │   │   ├── manifest.py
+│   │   │   ├── manifest.pyc
+│   │   │   ├── markers.py
+│   │   │   ├── markers.pyc
+│   │   │   ├── metadata.py
+│   │   │   ├── metadata.pyc
+│   │   │   ├── resources.py
+│   │   │   ├── resources.pyc
+│   │   │   ├── scripts.py
+│   │   │   ├── scripts.pyc
+│   │   │   ├── t32.exe
+│   │   │   ├── t64.exe
+│   │   │   ├── util.py
+│   │   │   ├── util.pyc
+│   │   │   ├── version.py
+│   │   │   ├── version.pyc
+│   │   │   ├── w32.exe
+│   │   │   ├── w64.exe
+│   │   │   ├── wheel.py
+│   │   │   └── wheel.pyc
+│   │   ├── html5lib
+│   │   │   ├── constants.py
+│   │   │   ├── constants.pyc
+│   │   │   ├── filters
+│   │   │   │   ├── alphabeticalattributes.py
+│   │   │   │   ├── alphabeticalattributes.pyc
+│   │   │   │   ├── _base.py
+│   │   │   │   ├── _base.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── __init__.pyc
+│   │   │   │   ├── inject_meta_charset.py
+│   │   │   │   ├── inject_meta_charset.pyc
+│   │   │   │   ├── lint.py
+│   │   │   │   ├── lint.pyc
+│   │   │   │   ├── optionaltags.py
+│   │   │   │   ├── optionaltags.pyc
+│   │   │   │   ├── sanitizer.py
+│   │   │   │   ├── sanitizer.pyc
+│   │   │   │   ├── whitespace.py
+│   │   │   │   └── whitespace.pyc
+│   │   │   ├── html5parser.py
+│   │   │   ├── html5parser.pyc
+│   │   │   ├── ihatexml.py
+│   │   │   ├── ihatexml.pyc
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── inputstream.py
+│   │   │   ├── inputstream.pyc
+│   │   │   ├── sanitizer.py
+│   │   │   ├── sanitizer.pyc
+│   │   │   ├── serializer
+│   │   │   │   ├── htmlserializer.py
+│   │   │   │   ├── htmlserializer.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   │   └── __init__.pyc
+│   │   │   ├── tokenizer.py
+│   │   │   ├── tokenizer.pyc
+│   │   │   ├── treeadapters
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── __init__.pyc
+│   │   │   │   ├── sax.py
+│   │   │   │   └── sax.pyc
+│   │   │   ├── treebuilders
+│   │   │   │   ├── _base.py
+│   │   │   │   ├── _base.pyc
+│   │   │   │   ├── dom.py
+│   │   │   │   ├── dom.pyc
+│   │   │   │   ├── etree_lxml.py
+│   │   │   │   ├── etree_lxml.pyc
+│   │   │   │   ├── etree.py
+│   │   │   │   ├── etree.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   │   └── __init__.pyc
+│   │   │   ├── treewalkers
+│   │   │   │   ├── _base.py
+│   │   │   │   ├── _base.pyc
+│   │   │   │   ├── dom.py
+│   │   │   │   ├── dom.pyc
+│   │   │   │   ├── etree.py
+│   │   │   │   ├── etree.pyc
+│   │   │   │   ├── genshistream.py
+│   │   │   │   ├── genshistream.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── __init__.pyc
+│   │   │   │   ├── lxmletree.py
+│   │   │   │   ├── lxmletree.pyc
+│   │   │   │   ├── pulldom.py
+│   │   │   │   └── pulldom.pyc
+│   │   │   ├── trie
+│   │   │   │   ├── _base.py
+│   │   │   │   ├── _base.pyc
+│   │   │   │   ├── datrie.py
+│   │   │   │   ├── datrie.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── __init__.pyc
+│   │   │   │   ├── py.py
+│   │   │   │   └── py.pyc
+│   │   │   ├── utils.py
+│   │   │   └── utils.pyc
+│   │   ├── __init__.py
+│   │   ├── __init__.pyc
+│   │   ├── ipaddress.py
+│   │   ├── ipaddress.pyc
+│   │   ├── lockfile
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── linklockfile.py
+│   │   │   ├── linklockfile.pyc
+│   │   │   ├── mkdirlockfile.py
+│   │   │   ├── mkdirlockfile.pyc
+│   │   │   ├── pidlockfile.py
+│   │   │   ├── pidlockfile.pyc
+│   │   │   ├── sqlitelockfile.py
+│   │   │   ├── sqlitelockfile.pyc
+│   │   │   ├── symlinklockfile.py
+│   │   │   └── symlinklockfile.pyc
+│   │   ├── _markerlib
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── markers.py
+│   │   │   └── markers.pyc
+│   │   ├── packaging
+│   │   │   ├── __about__.py
+│   │   │   ├── __about__.pyc
+│   │   │   ├── _compat.py
+│   │   │   ├── _compat.pyc
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── specifiers.py
+│   │   │   ├── specifiers.pyc
+│   │   │   ├── _structures.py
+│   │   │   ├── _structures.pyc
+│   │   │   ├── version.py
+│   │   │   └── version.pyc
+│   │   ├── pkg_resources
+│   │   │   ├── __init__.py
+│   │   │   └── __init__.pyc
+│   │   ├── progress
+│   │   │   ├── bar.py
+│   │   │   ├── bar.pyc
+│   │   │   ├── counter.py
+│   │   │   ├── counter.pyc
+│   │   │   ├── helpers.py
+│   │   │   ├── helpers.pyc
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── spinner.py
+│   │   │   └── spinner.pyc
+│   │   ├── requests
+│   │   │   ├── adapters.py
+│   │   │   ├── adapters.pyc
+│   │   │   ├── api.py
+│   │   │   ├── api.pyc
+│   │   │   ├── auth.py
+│   │   │   ├── auth.pyc
+│   │   │   ├── cacert.pem
+│   │   │   ├── certs.py
+│   │   │   ├── certs.pyc
+│   │   │   ├── compat.py
+│   │   │   ├── compat.pyc
+│   │   │   ├── cookies.py
+│   │   │   ├── cookies.pyc
+│   │   │   ├── exceptions.py
+│   │   │   ├── exceptions.pyc
+│   │   │   ├── hooks.py
+│   │   │   ├── hooks.pyc
+│   │   │   ├── __init__.py
+│   │   │   ├── __init__.pyc
+│   │   │   ├── models.py
+│   │   │   ├── models.pyc
+│   │   │   ├── packages
+│   │   │   │   ├── chardet
+│   │   │   │   │   ├── big5freq.py
+│   │   │   │   │   ├── big5freq.pyc
+│   │   │   │   │   ├── big5prober.py
+│   │   │   │   │   ├── big5prober.pyc
+│   │   │   │   │   ├── chardetect.py
+│   │   │   │   │   ├── chardetect.pyc
+│   │   │   │   │   ├── chardistribution.py
+│   │   │   │   │   ├── chardistribution.pyc
+│   │   │   │   │   ├── charsetgroupprober.py
+│   │   │   │   │   ├── charsetgroupprober.pyc
+│   │   │   │   │   ├── charsetprober.py
+│   │   │   │   │   ├── charsetprober.pyc
+│   │   │   │   │   ├── codingstatemachine.py
+│   │   │   │   │   ├── codingstatemachine.pyc
+│   │   │   │   │   ├── compat.py
+│   │   │   │   │   ├── compat.pyc
+│   │   │   │   │   ├── constants.py
+│   │   │   │   │   ├── constants.pyc
+│   │   │   │   │   ├── cp949prober.py
+│   │   │   │   │   ├── cp949prober.pyc
+│   │   │   │   │   ├── escprober.py
+│   │   │   │   │   ├── escprober.pyc
+│   │   │   │   │   ├── escsm.py
+│   │   │   │   │   ├── escsm.pyc
+│   │   │   │   │   ├── eucjpprober.py
+│   │   │   │   │   ├── eucjpprober.pyc
+│   │   │   │   │   ├── euckrfreq.py
+│   │   │   │   │   ├── euckrfreq.pyc
+│   │   │   │   │   ├── euckrprober.py
+│   │   │   │   │   ├── euckrprober.pyc
+│   │   │   │   │   ├── euctwfreq.py
+│   │   │   │   │   ├── euctwfreq.pyc
+│   │   │   │   │   ├── euctwprober.py
+│   │   │   │   │   ├── euctwprober.pyc
+│   │   │   │   │   ├── gb2312freq.py
+│   │   │   │   │   ├── gb2312freq.pyc
+│   │   │   │   │   ├── gb2312prober.py
+│   │   │   │   │   ├── gb2312prober.pyc
+│   │   │   │   │   ├── hebrewprober.py
+│   │   │   │   │   ├── hebrewprober.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __init__.pyc
+│   │   │   │   │   ├── jisfreq.py
+│   │   │   │   │   ├── jisfreq.pyc
+│   │   │   │   │   ├── jpcntx.py
+│   │   │   │   │   ├── jpcntx.pyc
+│   │   │   │   │   ├── langbulgarianmodel.py
+│   │   │   │   │   ├── langbulgarianmodel.pyc
+│   │   │   │   │   ├── langcyrillicmodel.py
+│   │   │   │   │   ├── langcyrillicmodel.pyc
+│   │   │   │   │   ├── langgreekmodel.py
+│   │   │   │   │   ├── langgreekmodel.pyc
+│   │   │   │   │   ├── langhebrewmodel.py
+│   │   │   │   │   ├── langhebrewmodel.pyc
+│   │   │   │   │   ├── langhungarianmodel.py
+│   │   │   │   │   ├── langhungarianmodel.pyc
+│   │   │   │   │   ├── langthaimodel.py
+│   │   │   │   │   ├── langthaimodel.pyc
+│   │   │   │   │   ├── latin1prober.py
+│   │   │   │   │   ├── latin1prober.pyc
+│   │   │   │   │   ├── mbcharsetprober.py
+│   │   │   │   │   ├── mbcharsetprober.pyc
+│   │   │   │   │   ├── mbcsgroupprober.py
+│   │   │   │   │   ├── mbcsgroupprober.pyc
+│   │   │   │   │   ├── mbcssm.py
+│   │   │   │   │   ├── mbcssm.pyc
+│   │   │   │   │   ├── sbcharsetprober.py
+│   │   │   │   │   ├── sbcharsetprober.pyc
+│   │   │   │   │   ├── sbcsgroupprober.py
+│   │   │   │   │   ├── sbcsgroupprober.pyc
+│   │   │   │   │   ├── sjisprober.py
+│   │   │   │   │   ├── sjisprober.pyc
+│   │   │   │   │   ├── universaldetector.py
+│   │   │   │   │   ├── universaldetector.pyc
+│   │   │   │   │   ├── utf8prober.py
+│   │   │   │   │   └── utf8prober.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── __init__.pyc
+│   │   │   │   └── urllib3
+│   │   │   │       ├── _collections.py
+│   │   │   │       ├── _collections.pyc
+│   │   │   │       ├── connectionpool.py
+│   │   │   │       ├── connectionpool.pyc
+│   │   │   │       ├── connection.py
+│   │   │   │       ├── connection.pyc
+│   │   │   │       ├── contrib
+│   │   │   │       │   ├── __init__.py
+│   │   │   │       │   ├── __init__.pyc
+│   │   │   │       │   ├── ntlmpool.py
+│   │   │   │       │   ├── ntlmpool.pyc
+│   │   │   │       │   ├── pyopenssl.py
+│   │   │   │       │   └── pyopenssl.pyc
+│   │   │   │       ├── exceptions.py
+│   │   │   │       ├── exceptions.pyc
+│   │   │   │       ├── fields.py
+│   │   │   │       ├── fields.pyc
+│   │   │   │       ├── filepost.py
+│   │   │   │       ├── filepost.pyc
+│   │   │   │       ├── __init__.py
+│   │   │   │       ├── __init__.pyc
+│   │   │   │       ├── packages
+│   │   │   │       │   ├── __init__.py
+│   │   │   │       │   ├── __init__.pyc
+│   │   │   │       │   ├── ordered_dict.py
+│   │   │   │       │   ├── ordered_dict.pyc
+│   │   │   │       │   ├── six.py
+│   │   │   │       │   ├── six.pyc
+│   │   │   │       │   └── ssl_match_hostname
+│   │   │   │       │       ├── _implementation.py
+│   │   │   │       │       ├── _implementation.pyc
+│   │   │   │       │       ├── __init__.py
+│   │   │   │       │       └── __init__.pyc
+│   │   │   │       ├── poolmanager.py
+│   │   │   │       ├── poolmanager.pyc
+│   │   │   │       ├── request.py
+│   │   │   │       ├── request.pyc
+│   │   │   │       ├── response.py
+│   │   │   │       ├── response.pyc
+│   │   │   │       └── util
+│   │   │   │           ├── connection.py
+│   │   │   │           ├── connection.pyc
+│   │   │   │           ├── __init__.py
+│   │   │   │           ├── __init__.pyc
+│   │   │   │           ├── request.py
+│   │   │   │           ├── request.pyc
+│   │   │   │           ├── response.py
+│   │   │   │           ├── response.pyc
+│   │   │   │           ├── retry.py
+│   │   │   │           ├── retry.pyc
+│   │   │   │           ├── ssl_.py
+│   │   │   │           ├── ssl_.pyc
+│   │   │   │           ├── timeout.py
+│   │   │   │           ├── timeout.pyc
+│   │   │   │           ├── url.py
+│   │   │   │           └── url.pyc
+│   │   │   ├── sessions.py
+│   │   │   ├── sessions.pyc
+│   │   │   ├── status_codes.py
+│   │   │   ├── status_codes.pyc
+│   │   │   ├── structures.py
+│   │   │   ├── structures.pyc
+│   │   │   ├── utils.py
+│   │   │   └── utils.pyc
+│   │   ├── retrying.py
+│   │   ├── retrying.pyc
+│   │   ├── re-vendor.py
+│   │   ├── re-vendor.pyc
+│   │   ├── six.py
+│   │   └── six.pyc
+│   ├── wheel.py
+│   └── wheel.pyc
+├── pip-6.0.8.dist-info
+│   ├── DESCRIPTION.rst
+│   ├── entry_points.txt
+│   ├── METADATA
+│   ├── metadata.json
+│   ├── pbr.json
+│   ├── RECORD
+│   ├── top_level.txt
+│   └── WHEEL
+├── pkg_resources
+│   ├── __init__.py
+│   ├── __init__.pyc
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── __init__.pyc
+│   │   ├── test_pkg_resources.py
+│   │   ├── test_pkg_resources.pyc
+│   │   ├── test_resources.py
+│   │   └── test_resources.pyc
+│   └── _vendor
+│       ├── __init__.py
+│       ├── __init__.pyc
+│       └── packaging
+│           ├── __about__.py
+│           ├── __about__.pyc
+│           ├── _compat.py
+│           ├── _compat.pyc
+│           ├── __init__.py
+│           ├── __init__.pyc
+│           ├── specifiers.py
+│           ├── specifiers.pyc
+│           ├── _structures.py
+│           ├── _structures.pyc
+│           ├── version.py
+│           └── version.pyc
+├── setuptools
+│   ├── archive_util.py
+│   ├── archive_util.pyc
+│   ├── cli-32.exe
+│   ├── cli-64.exe
+│   ├── cli-arm-32.exe
+│   ├── cli.exe
+│   ├── command
+│   │   ├── alias.py
+│   │   ├── alias.pyc
+│   │   ├── bdist_egg.py
+│   │   ├── bdist_egg.pyc
+│   │   ├── bdist_rpm.py
+│   │   ├── bdist_rpm.pyc
+│   │   ├── bdist_wininst.py
+│   │   ├── bdist_wininst.pyc
+│   │   ├── build_ext.py
+│   │   ├── build_ext.pyc
+│   │   ├── build_py.py
+│   │   ├── build_py.pyc
+│   │   ├── develop.py
+│   │   ├── develop.pyc
+│   │   ├── easy_install.py
+│   │   ├── easy_install.pyc
+│   │   ├── egg_info.py
+│   │   ├── egg_info.pyc
+│   │   ├── __init__.py
+│   │   ├── __init__.pyc
+│   │   ├── install_egg_info.py
+│   │   ├── install_egg_info.pyc
+│   │   ├── install_lib.py
+│   │   ├── install_lib.pyc
+│   │   ├── install.py
+│   │   ├── install.pyc
+│   │   ├── install_scripts.py
+│   │   ├── install_scripts.pyc
+│   │   ├── launcher manifest.xml
+│   │   ├── register.py
+│   │   ├── register.pyc
+│   │   ├── rotate.py
+│   │   ├── rotate.pyc
+│   │   ├── saveopts.py
+│   │   ├── saveopts.pyc
+│   │   ├── sdist.py
+│   │   ├── sdist.pyc
+│   │   ├── setopt.py
+│   │   ├── setopt.pyc
+│   │   ├── test.py
+│   │   ├── test.pyc
+│   │   ├── upload_docs.py
+│   │   └── upload_docs.pyc
+│   ├── compat.py
+│   ├── compat.pyc
+│   ├── depends.py
+│   ├── depends.pyc
+│   ├── dist.py
+│   ├── dist.pyc
+│   ├── extension.py
+│   ├── extension.pyc
+│   ├── gui-32.exe
+│   ├── gui-64.exe
+│   ├── gui-arm-32.exe
+│   ├── gui.exe
+│   ├── __init__.py
+│   ├── __init__.pyc
+│   ├── lib2to3_ex.py
+│   ├── lib2to3_ex.pyc
+│   ├── msvc9_support.py
+│   ├── msvc9_support.pyc
+│   ├── package_index.py
+│   ├── package_index.pyc
+│   ├── py26compat.py
+│   ├── py26compat.pyc
+│   ├── py27compat.py
+│   ├── py27compat.pyc
+│   ├── py31compat.py
+│   ├── py31compat.pyc
+│   ├── sandbox.py
+│   ├── sandbox.pyc
+│   ├── script (dev).tmpl
+│   ├── script.tmpl
+│   ├── site-patch.py
+│   ├── site-patch.pyc
+│   ├── ssl_support.py
+│   ├── ssl_support.pyc
+│   ├── tests
+│   │   ├── contexts.py
+│   │   ├── contexts.pyc
+│   │   ├── environment.py
+│   │   ├── environment.pyc
+│   │   ├── fixtures.py
+│   │   ├── fixtures.pyc
+│   │   ├── __init__.py
+│   │   ├── __init__.pyc
+│   │   ├── py26compat.py
+│   │   ├── py26compat.pyc
+│   │   ├── script-with-bom.py
+│   │   ├── script-with-bom.pyc
+│   │   ├── server.py
+│   │   ├── server.pyc
+│   │   ├── test_bdist_egg.py
+│   │   ├── test_bdist_egg.pyc
+│   │   ├── test_build_ext.py
+│   │   ├── test_build_ext.pyc
+│   │   ├── test_develop.py
+│   │   ├── test_develop.pyc
+│   │   ├── test_dist_info.py
+│   │   ├── test_dist_info.pyc
+│   │   ├── test_easy_install.py
+│   │   ├── test_easy_install.pyc
+│   │   ├── test_egg_info.py
+│   │   ├── test_egg_info.pyc
+│   │   ├── test_find_packages.py
+│   │   ├── test_find_packages.pyc
+│   │   ├── test_integration.py
+│   │   ├── test_integration.pyc
+│   │   ├── test_markerlib.py
+│   │   ├── test_markerlib.pyc
+│   │   ├── test_msvc9compiler.py
+│   │   ├── test_msvc9compiler.pyc
+│   │   ├── test_packageindex.py
+│   │   ├── test_packageindex.pyc
+│   │   ├── test_sandbox.py
+│   │   ├── test_sandbox.pyc
+│   │   ├── test_sdist.py
+│   │   ├── test_sdist.pyc
+│   │   ├── test_test.py
+│   │   ├── test_test.pyc
+│   │   ├── test_upload_docs.py
+│   │   ├── test_upload_docs.pyc
+│   │   ├── test_windows_wrappers.py
+│   │   ├── test_windows_wrappers.pyc
+│   │   ├── textwrap.py
+│   │   └── textwrap.pyc
+│   ├── unicode_utils.py
+│   ├── unicode_utils.pyc
+│   ├── utils.py
+│   ├── utils.pyc
+│   ├── version.py
+│   ├── version.pyc
+│   ├── windows_support.py
+│   └── windows_support.pyc
+├── setuptools-12.0.5.dist-info
+│   ├── dependency_links.txt
+│   ├── DESCRIPTION.rst
+│   ├── entry_points.txt
+│   ├── METADATA
+│   ├── metadata.json
+│   ├── RECORD
+│   ├── top_level.txt
+│   ├── WHEEL
+│   └── zip-safe
+└── ufraw-batch
+
+50 directories, 883 files
